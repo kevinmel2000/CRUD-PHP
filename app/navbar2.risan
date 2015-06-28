@@ -1,0 +1,7 @@
+<div class="navbar">
+	<a href="../index.php?q=home"><div class="hvr-shutter-in-vertical logo">CRUD</div></a>
+	<div class="menu-parent">
+		<a href="../index.php?q=home"><div class="menu-child menu-childs hvr-bounce-to-bottom"><span class="fa fa-lg fa-home"></span> Home</div></a>
+		<a href="../index.php?q=input"><div class="menu-child hvr-bounce-to-bottom"><span class="fa fa-lg fa-plus-circle"></span> Input Data</div></a>
+	</div>
+</div>

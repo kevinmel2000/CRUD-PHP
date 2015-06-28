@@ -1,0 +1,30 @@
+<title>Input Data</title>
+<div class="post">
+	<div class="container-title">Input Data</div>
+	<div class="container-content">
+		<form action="app/save.php" method="post" enctype="multipart/form-data">
+			<p><h3 align="center">Nama</h3></p>
+			<p align="center"><input name="nama" type="text" class="textfield" required /></p>
+			<p><h3 align="center">Kelas</h3></p>
+			<p align="center">
+				<select class="combobox" name="kelas">
+					<option value="X">X (Sepuluh)</option>
+					<option value="XI">XI (Sebelas)</option>
+					<option value="XII">XII (DuaBelas)</option>
+				</select>
+			</p>
+			<p><h3 align="center">Jurusan</h3></p>
+			<p align="center">
+				<select class="combobox" name="jurusan">
+					<option value="TKJ">TKJ (Teknisi Komputer Jaringan)</option>
+					<option value="RPL">RPL (Rekayasa Perangkat Lunak)</option>
+					<option value="MM">MM (Multimedia)</option>
+				</select>
+			</p>
+			<p><h3 align="center">Biografi</h3></p>
+			<p align="center"><textarea name="bio" class="textbox" required></textarea></p>
+			<p align="center"><input value="Simpan Data" type="submit" class="button hvr-fade" style="margin-top: 5px; margin-bottom: 5px;"></p>
+			<p><div style="display: none;"><input type="text" name="date" value="<?php echo date('Y-m-d'); ?>" readonly/>&nbsp;<textarea id="time" name="time" readonly></textarea></div></p>
+		</form>
+	</div>
+</div>
