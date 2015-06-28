@@ -1,7 +1,7 @@
 <?php
 	$dsn 	= "mysql:dbname=crudphp; host:localhost";
-	$user 	= "ichsan";
-	$pass 	= "Satu2Tiga4";
+	$user 	= "user";
+	$pass 	= "pass";
 
 	try {
 		$dbh 	= new PDO($dsn, $user, $pass);
